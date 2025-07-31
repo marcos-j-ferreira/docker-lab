@@ -84,3 +84,18 @@ docker-compose up
 4. **Use Makefile ou scripts Bash** se quiser automatizar builds (`make build`, `make run`).
 5. **Quando for pro Kubernetes**, evite ir direto pra GKE/EKS — pode usar o [Minikube](https://minikube.sigs.k8s.io/) ou [k3d](https://k3d.io/) localmente.
 
+---
+
+### Palavras reservadas do docker
+
+Essas palavras são usadas para construir um dockerfile
+
+> [Palavras Reservadas](../docker-lab/docs/palavraDocker.md)
+
+---
+
+### Comandos usados para build e run do docker
+
+Esses comandos são usados para construir e rodar um dockerfile.
+
+> [comandos](../docker-lab/docs/comandos.md)
