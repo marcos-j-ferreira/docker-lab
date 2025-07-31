@@ -90,7 +90,7 @@ docker-compose up
 
 Essas palavras são usadas para construir um dockerfile
 
-> [Palavras Reservadas](../docker-lab/docs/palavraDocker.md)
+> [Palavras Reservadas](./docs/palavraDocker.md)
 
 ---
 
@@ -98,4 +98,4 @@ Essas palavras são usadas para construir um dockerfile
 
 Esses comandos são usados para construir e rodar um dockerfile.
 
-> [comandos](../docker-lab/docs/comandos.md)
+> [comandos](./docs/comandos.md)
