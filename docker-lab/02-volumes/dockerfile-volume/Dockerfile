@@ -6,7 +6,7 @@ COPY  . .
 
 RUN pip install --no-cache-dir flask
 
-#VOLUME ["/app/data"]
+VOLUME ["/app/data"]
 
 EXPOSE  5000
 

@@ -99,3 +99,10 @@ Essas palavras são usadas para construir um dockerfile
 Esses comandos são usados para construir e rodar um dockerfile.
 
 > [comandos](./docs/comandos.md)
+
+
+### Como funciona e como criar um volume:
+
+Esse arquivo contem as orientações sobre como trabalhar com volume
+
+> [Volume](./docker-lab/02-volumes/docs.md) 
