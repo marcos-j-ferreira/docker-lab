@@ -1,0 +1,21 @@
+ # Nesse exemplo foi criado uma rede, e as aplicções se comunica através dela
+ #
+version: '3'
+services:
+  mysql:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: senha123
+    networks:
+      - minha-rede
+
+  app:
+    build: .  
+    ports:
+      - 3000:3000
+    networks:
+      - minha-rede
+
+networks:
+  minha-rede: # Nome da rede
+    driver: bridge  # Tipo da rede
