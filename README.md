@@ -1,10 +1,22 @@
 # docker-lab
 Meu objetivo é aprimorar o uso do Docker em diversos cenários, desde a criação de Dockerfiles até o uso com Kubernetes.
 
+## Índice
 
-## Organização da estrutura do repositório
+Todos os conteúdos já estudados:
 
-Aqui está uma sugestão de estrutura escalável e bem segmentada:
+- [Comandos usados para build e run do Docker](#comandos-usados-para-build-e-run-do-docker)
+- [Dockerfile: palavras reservadas](#palavras-reservadas-do-docker)
+- [Volumes: como funcionam e como criar](#como-funciona-e-como-criar-um-volume)
+- [Network: o que é, como configurar e iniciar](#como-configurar-iniciar-e-o-que-é-network-em-docker)
+
+---
+
+## Organização da Estrutura do Repositório
+
+A estrutura do diretório está organizada por tópicos, de acordo com os assuntos estudados.
+
+Cada pasta corresponde a um conceito principal do Docker (ex: `dockerfile/`, `volume/`, `network/`, etc.), contendo exemplos práticos, arquivos de configuração e comandos relacionados.
 
 ```
 docker-lab/
@@ -27,7 +39,7 @@ docker-lab/
 │
 ├── 03-network/
 │   ├── bridge/
-│   └── custom-network/
+│   └── macvlan/
 │
 ├── 04-docker-compose/
 │   ├── node-mongo/
@@ -76,7 +88,7 @@ docker-compose up
 ```
 
 
-## 💡 Boas práticas
+## Boas práticas
 
 1. **Separar bem os contextos:** Evite misturar volumes com rede, ou Compose com Dockerfile puro. Deixe cada pasta com seu objetivo.
 2. **Evite copiar grandes projetos:** Crie mini projetos seus mesmo — isso te ajuda a entender melhor.
@@ -86,7 +98,7 @@ docker-compose up
 
 ---
 
-### Palavras reservadas do docker
+## Palavras reservadas do docker
 
 Essas palavras são usadas para construir um dockerfile
 
@@ -94,21 +106,22 @@ Essas palavras são usadas para construir um dockerfile
 
 ---
 
-### Comandos usados para build e run do docker
+## Comandos usados para build e run do docker
 
 Esses comandos são usados para construir e rodar um dockerfile.
 
 > [comandos](./docs/comandos.md)
+---
 
-
-### Como funciona e como criar um volume:
+## Como funciona e como criar um volume:
 
 Esse arquivo contem as orientações sobre como trabalhar com volume
 
 > [Volume](./docker-lab/02-volumes/docs.md) 
 
+---
 
-### Como configurar, iniciar e o que network em Docker
+## Como configurar, iniciar e o que é network em Docker
 
 Os seguites tópicos foram abordados e respondidos no:
 
