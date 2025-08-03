@@ -106,3 +106,10 @@ Esses comandos são usados para construir e rodar um dockerfile.
 Esse arquivo contem as orientações sobre como trabalhar com volume
 
 > [Volume](./docker-lab/02-volumes/docs.md) 
+
+
+### Como configurar, iniciar e o que network em Docker
+
+Os seguites tópicos foram abordados e respondidos no:
+
+>[network](./docker-lab/03-network/docs.md)
