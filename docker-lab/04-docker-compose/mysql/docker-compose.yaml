@@ -1,0 +1,17 @@
+version: '3.3'
+
+services:
+  db:
+    image: mysql:8.0.30
+    container_name: mysql-estudo
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+     # - ./mysql-config:/etc/mysql/conf.d
+    ports:
+      - "3306:3306"
+    restart: unless-stopped
